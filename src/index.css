@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list-style{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding:0px;
+}
+
+.grid-class{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  padding: 20px;
+  gap:5px;
+}
+
+.button-class{
+  width:100%;
+  border-radius:19px !important;
+  height: 50px;
+}
+
+.row-style{
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   gap:10px;
+}
+
+.type-style{
+  color:grey;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cost-style{
+  font-size:60px;
+  font-weight: bold;
+}
+
+.month-style{
+  font-size:10px;
+}
+
+.align-style{
+  text-align:center;
+}
+.overall-grid{
+  background-image: linear-gradient(to right,blue,skyblue);
+}

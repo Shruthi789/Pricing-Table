@@ -1,0 +1,39 @@
+const PricePlanData=[
+{
+    planType:"FREE",
+    cost:0,
+    noofUsers:1,
+    storage:5,
+    unlimitedPublicProjects:true,
+    communityAccess:true,
+    unlimitedPrivateProjects:false,
+    dedicatedPhoneSupport:false,
+    freeSubDomain:false,
+    monthlySubReports:false
+},
+{
+    planType:"PLUS",
+    cost:9,
+    noofUsers:5,
+    storage:50,
+    unlimitedPublicProjects:true,
+    communityAccess:true,
+    unlimitedPrivateProjects:true,
+    dedicatedPhoneSupport:true,
+    freeSubDomain:true,
+    monthlySubReports:false
+},
+{
+    planType:"PRO",
+    cost:49,
+    noofUsers:10,
+    storage:150,
+    unlimitedPublicProjects:true,
+    communityAccess:true,
+    unlimitedPrivateProjects:true,
+    dedicatedPhoneSupport:true,
+    freeSubDomain:true,
+    monthlySubReports:true
+}
+];
+export {PricePlanData};

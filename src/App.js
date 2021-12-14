@@ -1,24 +1,14 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-
+import {PricePlanData} from './PricePlanData.js';
+import {PricePlan} from './PricePlan.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="overall-grid">
+    <div className="grid-class">
+     {PricePlanData.map((plan,index)=> <PricePlan key={index} plan={plan} id={index}/>)}
+     </div>
+     </div>
   );
 }
 
